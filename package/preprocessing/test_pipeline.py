@@ -11,4 +11,5 @@ def preprocessing_customer_data(df_21, df_22):
 
     return df_22
 
+# 주석을 추가해봣엉ㅇ 요 
 
