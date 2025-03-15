@@ -11,7 +11,7 @@ def preprocessing_customer_data(df_21, df_22):
     df_22 = df_22.copy()
 
     # 이탈 여부 라벨링
-    df_22["이탈여부"] = (df_21["PYE_C18233005"] - df_22["PYE_C18233005"] > 0).astype(int)
+    df_22["exited"] = (df_21["PYE_C18233005"] - df_22["PYE_C18233005"] > 0).astype(int)
 
     return df_22
 
