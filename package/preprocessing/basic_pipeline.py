@@ -130,5 +130,5 @@ def corr_analysis(df, categorical_columns, filter_threshold=True):
     # 주피터에서 결과 출력
     display(correlations_df)
 
-    return display(correlations_df)  # 데이터프레임 반환
+    return correlations_df  # 데이터프레임 반환
 
