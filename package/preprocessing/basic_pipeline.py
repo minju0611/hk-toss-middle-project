@@ -4,7 +4,8 @@ import matplotlib.font_manager as fm
 from collections import Counter
 
 """
-[함수 목록]
+
+[basic_pipeline 함수 목록]
 1. set_macos_font()
     : mac 체제 한글 폰트 깨짐 방지
 
@@ -129,5 +130,5 @@ def corr_analysis(df, categorical_columns, filter_threshold=True):
     # 주피터에서 결과 출력
     display(correlations_df)
 
-    return correlations_df  # 데이터프레임 반환
+    return display(correlations_df)  # 데이터프레임 반환
 
