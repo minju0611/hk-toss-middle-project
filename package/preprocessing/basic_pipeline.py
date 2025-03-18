@@ -128,7 +128,7 @@ def corr_analysis(df, categorical_columns, filter_threshold=True):
     pd.set_option("display.float_format", "{:.4f}".format)
     
     # 주피터에서 결과 출력
-    display(correlations_df)
+   #  display(correlations_df)
 
     return correlations_df  # 데이터프레임 반환
 
